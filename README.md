@@ -20,3 +20,5 @@ Our mission is to promote mental well-being and connect users with helpful resou
 - **HTML**: For structuring the content.
 - **CSS**: For styling and layout.
 - **JavaScript**: (if applicable) For any interactive features or enhancements.
+
+![image](https://github.com/user-attachments/assets/4f057912-c108-4f5e-be33-2d399ca1e073)
