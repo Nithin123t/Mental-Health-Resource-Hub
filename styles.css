@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    background-image: url('https://img.freepik.com/free-photo/view-broken-heart-with-flowers_23-2150941629.jpg?ga=GA1.1.636576793.1732188999&semt=ais_hybrid');
+    background-size: cover; 
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: #d4f1f4;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: white;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+    color: white;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2rem 0;
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  h2,h3,p {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .article {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .article h3 {
+    color: #f8f3f3;
+  }
+  
+  .article a {
+    color: #4CAF50;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+    text-align: center;
+  }
+  
+  #chatbox {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    color: #0a5e68;
+  }
+  
+  .messages {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+  }
+  
+  .bot-message {
+    background-color: #e1f7d5;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .user-message {
+    background-color: #d4f1f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  #user-input {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  

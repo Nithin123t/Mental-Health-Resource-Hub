@@ -1,0 +1,132 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and text */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Main content container */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Resource Category */
+.resource-category {
+    margin-bottom: 30px;
+}
+
+.resource-category h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #4CAF50;
+}
+
+/* Resources container */
+.resources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* Individual resource */
+.resource {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 48%; /* Adjust width for two columns */
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.resource h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.resource p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.resource a {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.resource a:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .resource-category h2 {
+        font-size: 1.5em;
+    }
+
+    .resource h3 {
+        font-size: 1.3em;
+    }
+
+    .resource p {
+        font-size: 1em;
+    }
+
+    .resources {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .resource {
+        width: 80%;
+    }
+}

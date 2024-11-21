@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mental Health Resource Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Mental Health Resource Hub</h1>
+      <nav>
+        <ul>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="exercises.html">Mindfulness Exercises</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="#chatbot">Chatbot</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="articles" class="section">
+      <h2>Articles</h2>
+      <div class="article">
+        <h3>Understanding Anxiety</h3>
+        <p>This article discusses what anxiety is and tips for managing it...</p>
+        <a href="#">Read more</a>
+      </div>
+      <div class="article">
+        <h3>Stress Management Techniques</h3>
+        <p>Learn effective techniques to manage stress in your daily life...</p>
+        <a href="#">Read more</a>
+      </div>
+    </section>
+
+    <section id="exercises" class="section">
+      <h2>Mindfulness Exercises</h2>
+      <button id="start-exercise">Start Breathing Exercise</button>
+      <div id="exercise" class="exercise" style="display: none;">
+        <p>Breathe in... Hold... Breathe out...</p>
+        <button id="end-exercise">End Exercise</button>
+      </div>
+    </section>
+
+    <section id="resources" class="section">
+      <h2>Resources by Topic</h2>
+      <ul>
+        <li><a href="https://anxieties.com/">Anxiety Resources</a></li>
+        <li><a href="https://nndc.org/resource-links/">Depression Resources</a></li>
+        <li><a href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/sleepless-nights-try-stress-relief-techniques">Stress Relief Techniques</a></li>
+        <li><a href="https://www.mindful.org/meditation/mindfulness-getting-started/">Mindfulness Resources</a></li>
+      </ul>
+    </section>
+
+    <section id="chatbot" class="section">
+      <h2>Chatbot for Emotional Support</h2>
+      <div id="chatbox">
+        <div class="messages">
+          <div class="bot-message">Hello! How are you feeling today?</div>
+        </div>
+        <input type="text" id="user-input" placeholder="Type your message..." />
+        <button id="send-message">Send</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Mental Health Resource Hub</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
