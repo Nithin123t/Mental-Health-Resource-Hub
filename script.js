@@ -26,7 +26,7 @@ document.getElementById('send-message').addEventListener('click', function() {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': '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', // Replace with your actual API key
+        'Authorization': '', // Replace with your actual API key
       },
       body: JSON.stringify({
         message: userInput,
