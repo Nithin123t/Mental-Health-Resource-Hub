@@ -1,0 +1,164 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #2e3a47;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #00796b;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #00796b;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  /* Navigation Section */
+  nav {
+    background-color: #004d40;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-size: 1.2em;
+  }
+  
+  nav ul li a:hover {
+    color: #b2dfdb;
+  }
+  
+  /* Articles Section */
+  #articles {
+    padding: 50px 0;
+    background-color: #fffde7;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    font-size: 1.8em;
+    color: #00796b;
+  }
+  
+  .card p {
+    color: #555;
+  }
+  
+  .card button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background-color: #004d40;
+  }
+  
+  /* Mindfulness Practices Section */
+  #practices {
+    padding: 50px 0;
+  }
+  
+  .practice-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .practice-card h3 {
+    font-size: 1.8em;
+    color: #00796b;
+  }
+  
+  .practice-card p {
+    color: #555;
+  }
+  
+  #breathingTimerDisplay {
+    font-size: 1.2em;
+    color: #00796b;
+  }
+  
+  /* Resources Section */
+  #resources {
+    padding: 50px 0;
+    background-color: #e0f2f1;
+  }
+  
+  #resources ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #resources ul li {
+    margin: 10px 0;
+  }
+  
+  #resources ul li a {
+    color: #00796b;
+    font-size: 1.1em;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  

@@ -1,0 +1,206 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #004d40;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  nav {
+    background-color: #00796b;
+    padding: 15px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Articles Section */
+  #articles {
+    padding: 30px 0;
+    background-color: #e0f2f1;
+  }
+  
+  #articles h2 {
+    text-align: center;
+    color: #004d40;
+    font-size: 2.5em;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    color: #00796b;
+  }
+  
+  .card a {
+    color: #00796b;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Mindfulness Section */
+  #mindfulness {
+    padding: 30px 0;
+  }
+  
+  #mindfulness h2 {
+    text-align: center;
+    color: #004d40;
+    font-size: 2.5em;
+  }
+  
+  .exercise-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .exercise-card button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .exercise-card button:hover {
+    background-color: #004d40;
+  }
+  
+  /* Resources Section */
+  #resources {
+    padding: 30px 0;
+    background-color: #e0f2f1;
+  }
+  
+  #resources h2 {
+    text-align: center;
+    color: #004d40;
+    font-size: 2.5em;
+  }
+  
+  #resources ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #resources ul li {
+    margin: 10px 0;
+  }
+  
+  #resources ul li a {
+    color: #00796b;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  #resources ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Chatbot Section */
+  #chatbot {
+    padding: 30px 0;
+  }
+  
+  #chatbot h2 {
+    text-align: center;
+    color: #004d40;
+    font-size: 2.5em;
+  }
+  
+  #chatBox {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .chatbox input[type="text"] {
+    width: 75%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .chatbox button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .chatbox button:hover {
+    background-color: #004d40;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  

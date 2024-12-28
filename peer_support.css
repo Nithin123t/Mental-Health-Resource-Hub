@@ -1,0 +1,118 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  /* Benefits Section */
+  #benefits {
+    background: #e8f5e9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #benefits h2 {
+    color: #388e3c;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #benefits ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  #benefits li {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  /* Platforms Section */
+  #platforms {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .platform-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .platform-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .platform-card h3 {
+    color: #4caf50;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .platform-card p {
+    margin-bottom: 15px;
+  }
+  
+  .platform-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  .platform-card ul li {
+    margin-bottom: 8px;
+  }
+  
+  .platform-link {
+    display: inline-block;
+    text-decoration: none;
+    background: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .platform-link:hover {
+    background: #388e3c;
+  }
+  
+  /* Footer */
+  footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+  }
+  

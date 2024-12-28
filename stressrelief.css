@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #00695c;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  nav {
+    background-color: #004d40;
+    padding: 15px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Articles Section */
+  #articles {
+    padding: 30px 0;
+    background-color: #fffde7;
+  }
+  
+  #articles h2 {
+    text-align: center;
+    color: #004d40;
+    font-size: 2.5em;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h3 {
+    color: #00695c;
+  }
+  
+  .card a {
+    color: #004d40;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Stress Relief Techniques Section */
+  #techniques {
+    padding: 30px 0;
+  }
+  
+  #techniques h2 {
+    text-align: center;
+    color: #004d40;
+    font-size: 2.5em;
+  }
+  
+  .technique-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .technique-card h3 {
+    color: #00695c;
+  }
+  
+  .technique-card ol {
+    padding-left: 20px;
+  }
+  
+  .technique-card p {
+    color: #004d40;
+  }
+  
+  .technique-card a {
+    color: #00695c;
+    text-decoration: none;
+  }
+  
+  .technique-card a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Resources Section */
+  #resources {
+    padding: 30px 0;
+    background-color: #fffde7;
+  }
+  
+  #resources h2 {
+    text-align: center;
+    color: #004d40;
+    font-size: 2.5em;
+  }
+  
+  #resources ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #resources ul li {
+    margin: 10px 0;
+  }
+  
+  #resources ul li a {
+    color: #00695c;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  #resources ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Self-Care Section */
+  #self-care {
+    padding: 30px 0;
+  }
+  
+  #self-care h2 {
+    text-align: center;
+    color: #004d40;
+    font-size: 2.5em;
+  }
+  
+  #self-care ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #self-care ul li {
+    margin: 15px 0;
+    font-size: 1.2em;
+    color: #004d40;
+  }
+  
+  #self-care ul li strong {
+    font-weight: bold;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #00695c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  

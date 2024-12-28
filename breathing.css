@@ -1,0 +1,118 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background: #008080;
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  header p {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  /* Benefits Section */
+  #benefits {
+    padding: 20px;
+    background: #e6f7f7;
+    text-align: center;
+  }
+  
+  #benefits h2 {
+    color: #004d4d;
+  }
+  
+  #benefits ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  #benefits li {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  /* Breathing Techniques Section */
+  #breathing-techniques {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .technique-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .technique-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .technique-card h3 {
+    color: #008080;
+  }
+  
+  .technique-card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .technique-card ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Apps Section */
+  #apps {
+    background: #f0f8ff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #apps ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #apps a {
+    color: #008080;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #apps a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background: #004d4d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+  }
+  
